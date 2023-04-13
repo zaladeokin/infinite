@@ -1,0 +1,38 @@
+.user-form{
+    margin: 5vh auto;
+    padding: 1vw;
+    background-color: #95e8fc;
+}
+fieldset div{
+    margin-bottom: 1vw;
+}
+fieldset{
+    border: 0.2vw outset;
+}
+legend{
+    color:#0000ff;
+    font-weight: bold;
+    font-style: oblique;
+}
+label{
+    margin-right: 1%;
+}
+input:focus, input:hover{
+    background-color: rgba(48, 80, 80, .2);
+}
+input[type="submit"]{
+    display: block;
+    margin: 1vw auto 0;
+    width: 50%;
+    background-color: rgba(0, 0, 255, 0.8);
+    height: 2rem;
+    padding: 0.1em;
+    font-size: 100%;
+    line-height: 2rem;
+    color: #FFFFFF; 
+}
+.error{
+    display: block;
+    color: #ff0000;
+    font-style: italic;
+}

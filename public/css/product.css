@@ -1,0 +1,78 @@
+#product_show img{
+    display: none;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+#product_show img:first-child{
+    display: block;
+}
+#product_show, #product_info{
+    display: block;
+    box-sizing: border-box;
+    margin: 2% 0 0 1.5%;
+    padding: 0.5%;
+}
+#product_show{
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+    height: 95vw;
+    width: 95%;
+    padding: 0%; 
+}
+#prev, #next{
+    /*Product image control*/
+    height: 1em;
+    width: 2em;
+    border: 0;
+    padding: 0;
+}
+#product_info{
+    margin-top: 10%;
+    /*height: 90vw;*/
+    width: 95%;
+    font-size: 0.6em;
+}
+#product_info span,  #product_info button{
+    display: block;
+    margin: 0 auto;
+    padding: 0%;
+}
+#product_info button{
+    margin-top: 1%;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: oblique;
+    background-color: rgba(0, 0, 255, 0.7);
+    border-radius: 1em;
+    transition: background-color .5s linear, border .1s linear;
+}
+#product_info button:hover{
+    background-color: rgba(0, 0, 255, 1);;
+}
+#product_info button:active{
+    border: 2px outset black;
+}
+#product_info input{
+    background-color: #9fcfbf;
+    width: 20vw;
+}
+#product_info h2, #product_info h3{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+#product_info h3{
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: bold;
+}
+#product_info span:first-child{
+    /*Product name*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+}

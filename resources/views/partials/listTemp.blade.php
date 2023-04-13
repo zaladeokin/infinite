@@ -1,0 +1,2 @@
+ <!--- Products-->
+ <a href="{{route('products.show', ['products'=> $product->id])}}"><div><img src="{{asset($product->image_path)}}" alt="{{$product->product_name}}"><span>{{$product->product_name}}</span><span>Price: ${{$product->price}}</span></div></a>

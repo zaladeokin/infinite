@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+header{
+    padding:0;
+    margin: 0;
+    padding: 0;
+    background: #95e8fc url("../images/brand/brand1.png");
+}
+header h1, header section{
+    display: block;
+    margin: 0;
+}
+header section{
+    width: 90%;
+    margin: 0;
+    padding: 0 10px;
+}
+header h1{
+    margin-left: 0.5%;
+    color: #0000ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+}
+header section a {
+    display: inline-block;
+    margin: 0 auto;
+    height: 100%;
+    width: 25%;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+}
+header section input[type="text"]{
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    color: #000000;
+    line-height: 100%;
+    border: 1px solid #0000ff;
+    border-radius: 5px;
+}

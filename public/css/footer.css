@@ -1,0 +1,24 @@
+/*Pagination Styling*/
+.pagination{
+    clear: both;
+    margin: 0 auto;
+
+}
+.pagination a{
+    display: inline-block;
+    width: 20vw;
+    background-color: #ff0000;
+    border-radius: 2%;
+}
+
+
+/* Footer style here */
+footer{
+    clear: both;
+    background-color: black;
+    color: #FFFFFF;
+    width: 100%;
+    height: 10vh;
+    font-size: 1em;
+    text-align: center;
+}

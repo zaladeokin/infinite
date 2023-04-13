@@ -1,0 +1,1 @@
+<label for="search_box"><input type="text" id="search_box" placeholder="search product">{{-- put search icon --}}</label>
